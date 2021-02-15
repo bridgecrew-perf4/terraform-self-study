@@ -1,7 +1,7 @@
 provider "google" {
-  project = "{{YOUR GCP PROJECT}}"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  project = "terraform-self-study"
+  region  = "europe-west3 "
+  zone    = "europe-west3-a"
 }
 
 resource "google_compute_instance" "vm_instance" {
